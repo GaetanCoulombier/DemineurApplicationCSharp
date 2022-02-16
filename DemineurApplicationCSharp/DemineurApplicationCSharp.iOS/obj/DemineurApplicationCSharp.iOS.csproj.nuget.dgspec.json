@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj",
+        "projectName": "DemineurApplicationCSharp.iOS",
+        "projectPath": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj",
+        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
+        "outputPath": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

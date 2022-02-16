@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jgI9zJ70jrJMQeUTOMcp5mN04+2+QHjalUFA+fiZKPL++S9MhOFibV7wn5+d8Ql2qRNale0Oc/3hcP3rtrPQ1w==",
+  "success": true,
+  "projectFilePath": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gaeta\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
