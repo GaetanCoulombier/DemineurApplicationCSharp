@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
 namespace DemineurApplicationCSharp
 {
     public partial class App : Application
@@ -10,23 +12,34 @@ namespace DemineurApplicationCSharp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+            ((NavigationPage)MainPage).BarBackgroundColor = Color.Beige;
+            ((NavigationPage)MainPage).BarTextColor = Color.DarkSlateGray;
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            Debug.WriteLine("OnStart");
+            if (Current.Properties.ContainsKey("MainPageID"))
+            {
+                var id = Current.Properties["MainPageID"];
+                Debug.WriteLine("OnStart - " + id);
+            }
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            Debug.WriteLine("OnSleep");
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+            Debug.WriteLine("OnResume");
+            if (Current.Properties.ContainsKey("MainPageID"))
+            {
+                var id = Current.Properties["MainPageID"];
+                Debug.WriteLine("OnResume - " + id);
+            }
         }
     }
 }

@@ -2,14 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemineurApplicationCSharp"
-             x:Class="DemineurApplicationCSharp.MainPage">
+             x:Class="DemineurApplicationCSharp.MainPage"
+             BackgroundColor="Ivory"
+             Title="Démineur">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Button Text="confirm"></Button>
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+            <Button x:Name="btn_nouvelle_partie"
+                    Text="Nouvelle partie"
+                    FontSize="Large"
+                    Font="Bold"
+                    TextColor="White"
+                    WidthRequest="200"
+                    CornerRadius="5"
+                    BackgroundColor="OliveDrab"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Nouvelle_Partie_OnClick">
+            </Button>
+            
+            <Button x:Name="btn_charger_partie"
+                    Text="Charger une partie"
+                    FontSize="Large"
+                    Font="Bold"
+                    TextColor="White"
+                    WidthRequest="200"
+                    CornerRadius="5"
+                    BackgroundColor="OliveDrab"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Charger_Partie_OnClick">
+            </Button>
+        </StackLayout>
     </StackLayout>
-
 </ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:droid="clr-namespace:DemineurApplicationCSharp.Droid;assembly=DemineurApplicationCSharp.Droid"
+             x:Class="DemineurApplicationCSharp.Droid.DemineurPage"
+             BackgroundColor="Ivory"
+             Title="Démineur">
+    
+    <StackLayout>
+        <Grid x:Name="Grid"
+              Padding="2"
+              Margin="10"
+              BackgroundColor="SaddleBrown"
+              RowSpacing="1"
+              ColumnSpacing="1">
+        </Grid>
+        <Image
+            Source="Bomb.png">
+        </Image>
+        <Image
+            Source="Resources/Bomb.png">
+        </Image>
+    </StackLayout>
+
+</ContentPage>
