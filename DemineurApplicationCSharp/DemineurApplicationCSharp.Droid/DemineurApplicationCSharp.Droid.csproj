@@ -52,10 +52,8 @@
         <Compile Include="DemineurPage.xaml.cs">
           <DependentUpon>DemineurPage.xaml</DependentUpon>
         </Compile>
-        <Compile Include="LoadPage.xaml.cs">
-          <DependentUpon>LoadPage.xaml</DependentUpon>
-        </Compile>
         <Compile Include="MainActivity.cs" />
+        <Compile Include="model\Action.cs" />
         <Compile Include="model\Case.cs" />
         <Compile Include="model\Checker.cs" />
         <Compile Include="model\Filler.cs" />
@@ -80,13 +78,7 @@
     </ItemGroup>
     <ItemGroup>
       <EmbeddedResource Include="DemineurPage.xaml" />
-      <EmbeddedResource Include="LoadPage.xaml" />
       <EmbeddedResource Include="NewPage.xaml" />
-    </ItemGroup>
-    <ItemGroup>
-      <AndroidAsset Include="Resources\Bomb.png" />
-      <AndroidAsset Include="Resources\Flag.png" />
-      <AndroidAsset Include="Resources\Pickaxe.png" />
     </ItemGroup>
     <Import Project="..\DemineurApplicationCSharp\DemineurApplicationCSharp.projitems" Label="Shared" />
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

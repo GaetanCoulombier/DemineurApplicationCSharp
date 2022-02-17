@@ -1,10 +1,47 @@
 {
   "version": 2,
-  "dgSpecHash": "fMhAB3vzFAY7J122iEGfi4t1Tlkyb5BslmXTBGG04vC+4BRwrGweVhGpQsVazsvyPIz5pIOk2eDn+HB/DKWETg==",
-  "success": true,
+  "dgSpecHash": "qboLhvBqQ9wHsttMXZVqQPcSPUpm4Mry3EZimMlcQ2Uh2188pZ49ZzCZc5hNAmAjG5bxnvDC8ekW4k8EPXl6Pg==",
+  "success": false,
   "projectFilePath": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.iOS\\DemineurApplicationCSharp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gaeta\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

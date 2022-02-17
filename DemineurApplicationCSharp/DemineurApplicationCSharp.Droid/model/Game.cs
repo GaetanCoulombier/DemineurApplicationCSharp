@@ -82,6 +82,18 @@ namespace DemineurApplicationCSharp.Droid.model
         {
             plateau[x, y] = value;
         }
+        
+        public void revealAll()
+        {
+            for (var y = 0; y < SIZE; y++)
+            {
+                for (var x = 0; x < SIZE; x++)
+                {
+                    plateau[x, y].setStatus(Status.OPEN);
+                }
+
+            }
+        }
 
         public Case getCase(int x, int y)
         {

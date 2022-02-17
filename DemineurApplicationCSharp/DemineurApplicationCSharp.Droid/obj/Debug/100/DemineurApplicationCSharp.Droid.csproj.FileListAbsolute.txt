@@ -540,5 +540,4 @@ C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp
 C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp.Droid\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp.Droid\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
 C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp.Droid\obj\Debug\100\DemineurPage.xaml.g.cs
-C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp.Droid\obj\Debug\100\LoadPage.xaml.g.cs
 C:\DemineurApplicationCSharp\DemineurApplicationCSharp\DemineurApplicationCSharp.Droid\obj\Debug\100\NewPage.xaml.g.cs

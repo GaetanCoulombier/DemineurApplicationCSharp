@@ -17,11 +17,6 @@ namespace DemineurApplicationCSharp
             InitializeComponent();
         }
 
-        private async void Charger_Partie_OnClick(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new LoadPage());
-        }
-        
         private async void Nouvelle_Partie_OnClick(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new NewPage());

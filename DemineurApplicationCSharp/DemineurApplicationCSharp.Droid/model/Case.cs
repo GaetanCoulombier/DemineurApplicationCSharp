@@ -25,6 +25,11 @@ namespace DemineurApplicationCSharp.Droid.model
         {
             return status;
         }
+        
+        public void setStatus(Status status)
+        {
+            this.status = status;
+        }
 
         // false if the bomb has exploded
         public bool reveal()
@@ -67,10 +72,10 @@ namespace DemineurApplicationCSharp.Droid.model
                             return number.ToString(); // other number
                     }
                 case Status.FLAG:
-                    return "X";
+                    return "P";
                 case Status.BLANK:
                 default:
-                    return "▒";
+                    return " ";
             }
         }
     }

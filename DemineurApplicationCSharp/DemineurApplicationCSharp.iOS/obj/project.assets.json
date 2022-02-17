@@ -124,6 +124,16 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "DemineurApplicationCSharp.Droid/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -248,6 +258,16 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "DemineurApplicationCSharp.Droid/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
         }
       }
     },
@@ -374,6 +394,16 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "DemineurApplicationCSharp.Droid/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -498,6 +528,16 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "DemineurApplicationCSharp.Droid/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemineurApplicationCSharp.Droid.dll": {}
         }
       }
     }
@@ -718,10 +758,16 @@
         "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "DemineurApplicationCSharp.Droid/1.0.0": {
+      "type": "project",
+      "path": "../DemineurApplicationCSharp.Droid/DemineurApplicationCSharp.Droid.csproj",
+      "msbuildProject": "../DemineurApplicationCSharp.Droid/DemineurApplicationCSharp.Droid.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "DemineurApplicationCSharp.Droid >= 1.0.0",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
@@ -751,7 +797,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.Droid\\DemineurApplicationCSharp.Droid.csproj": {
+              "projectPath": "C:\\DemineurApplicationCSharp\\DemineurApplicationCSharp\\DemineurApplicationCSharp.Droid\\DemineurApplicationCSharp.Droid.csproj"
+            }
+          }
         }
       }
     },
@@ -776,5 +826,43 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DemineurApplicationCSharp.Droid is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Project DemineurApplicationCSharp.Droid supports: monoandroid10.0 (MonoAndroid,Version=v10.0)",
+      "libraryId": "DemineurApplicationCSharp.Droid",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

@@ -20,4 +20,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="$(MSBuildThisFileDirectory)images\Bomb.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)images\Flag.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)images\Pickaxe.png" />
+  </ItemGroup>
 </Project>

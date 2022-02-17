@@ -6,21 +6,49 @@
              x:Class="DemineurApplicationCSharp.Droid.DemineurPage"
              BackgroundColor="Ivory"
              Title="Démineur">
-    
-    <StackLayout>
-        <Grid x:Name="Grid"
-              Padding="2"
-              Margin="10"
-              BackgroundColor="SaddleBrown"
-              RowSpacing="1"
-              ColumnSpacing="1">
-        </Grid>
-        <Image
-            Source="Bomb.png">
-        </Image>
-        <Image
-            Source="Resources/Bomb.png">
-        </Image>
+
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="20">
+        <Frame
+            BackgroundColor="DimGray"
+            Padding="2">
+            <StackLayout
+                BackgroundColor="Beige">
+                <Grid x:Name="Grid"
+                      Padding="5"
+                      Margin="5">
+                </Grid>
+            </StackLayout>
+        </Frame>
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="10">
+            <Button
+                x:Name="Btn_Flag"
+                Text="Drapeau"
+                FontSize="Large"
+                Font="Bold"
+                TextColor="White"
+                WidthRequest="150"
+                CornerRadius="5"
+                BackgroundColor="OliveDrab"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="RevealCase_OnClicked" />
+            <Button
+                x:Name="Btn_Break"
+                Text="Casser"
+                FontSize="Large"
+                Font="Bold"
+                TextColor="White"
+                WidthRequest="150"
+                CornerRadius="5"
+                BackgroundColor="RoyalBlue"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="Flag_OnClicked" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
